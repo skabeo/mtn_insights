@@ -19,7 +19,7 @@ A dynamic dashboard was developed to provide a high-level overview of critical m
   * **Churn Rate:** Showed the percentage of customers who churned during the selected period.
   * **Total Revenue:** Summed up the total revenue for the selected period.
 
-  ![dashboard](image.png)
+  ![dashboard](assets/image.png)
 
 * **Visual Design:**
 
@@ -38,7 +38,7 @@ A dynamic dashboard was developed to provide a high-level overview of critical m
 * Identified and analyzed the top reasons why customers churned.
 * Summarized findings in a presentation format to effectively communicate insights.
 
-![churn](image-2.png)
+![churn](assets/image-2.png)
 
 ---
 
@@ -61,7 +61,7 @@ Analyzed device popularity across three dimensions:
   * Analyzed data usage trends by device.
   * Identified devices with the highest average data consumption.
 
-  ![device_pop](image-3.png)
+  ![device_pop](assets/image-3.png)
 
 ---
 
@@ -81,7 +81,7 @@ Analyzed device popularity across three dimensions:
 
   * Explored revenue trends across different customer age groups.
 
-![first_two](image-4.png) ![alt text](image-5.png)
+![first_two](assets/image-4.png) ![second](assets/image-5.png)
 
 
 ---
@@ -102,8 +102,8 @@ Analyzed device popularity across three dimensions:
 
   * Correlated revenue, data usage, and device sales to derive actionable insights.
 
-![alt text](image-6.png)
-![alt text](image-7.png)
+![real](assets/image-6.png)
+![him](assets/image-7.png)
 
 
 ---

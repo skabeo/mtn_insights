@@ -1,288 +1,158 @@
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
+# MTN Insights Data Analysis Project
 
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
+## Overview
 
-OPTIONAL SECTIONS:
-- FAQ
+This project involved analyzing the MTN Insights data using Microsoft Excel to derive meaningful insights and present them effectively through dashboards and visual presentations. The analysis aimed to highlight key performance indicators (KPIs), customer behavior trends, and device popularity metrics.
 
-After you're finished please remove all the comments and instructions!
--->
+---
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+## Features and Deliverables
 
-  <h3><b>Microverse README Template</b></h3>
+### 1. **Dashboard Creation**
 
-</div>
+A dynamic dashboard was developed to provide a high-level overview of critical metrics. Key features include:
 
-<!-- TABLE OF CONTENTS -->
+* **KPI Cards:**
 
-# 📗 Table of Contents
+  * **Total Customers:** Displayed the total number of customers for the selected period.
+  * **Average Satisfaction:** Calculated and displayed the average customer satisfaction score.
+  * **Churn Rate:** Showed the percentage of customers who churned during the selected period.
+  * **Total Revenue:** Summed up the total revenue for the selected period.
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+  ![dashboard](image.png)
 
-<!-- PROJECT DESCRIPTION -->
+* **Visual Design:**
 
-# 📖 [your_project_name] <a name="about-project"></a>
+  * Used Excel illustrations such as rectangles and text boxes to create visually appealing KPI cards.
+  * Ensured a clean and professional layout that enhances readability and engagement.
 
-> Describe your project in 1 or 2 sentences.
+* **Month Filter:**
 
-**[your_project__name]** is a...
+  * Implemented a drop-down menu to allow users to select a specific month.
+  * Dynamically updated the dashboard to reflect data for the chosen month.
 
-## 🛠 Built With <a name="built-with"></a>
+---
 
-### Tech Stack <a name="tech-stack"></a>
+### 2. **Churn Analysis Presentation**
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+* Identified and analyzed the top reasons why customers churned.
+* Summarized findings in a presentation format to effectively communicate insights.
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
+![churn](image-2.png)
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
+---
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+### 3. **Device Popularity Metrics**
 
-<!-- Features -->
+Analyzed device popularity across three dimensions:
 
-### Key Features <a name="key-features"></a>
+* **Units Sold:**
 
-> Describe between 1-3 key features of the application.
+  * Ranked devices based on the number of units sold.
+  * Highlighted the best-performing devices in terms of sales.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+* **Revenue Generated:**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+  * Evaluated the contribution of each device to the overall revenue.
+  * Identified the most profitable devices.
 
-<!-- LIVE DEMO -->
+* **Data Usage:**
 
-## 🚀 Live Demo <a name="live-demo"></a>
+  * Analyzed data usage trends by device.
+  * Identified devices with the highest average data consumption.
 
-> Add a link to your deployed project.
+  ![device_pop](image-3.png)
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+---
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### 4. **Revenue generated analysis**
 
-<!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+* **Revenue by Devices:**
 
-To get a local copy up and running, follow these steps.
+  * Analyzed the revenue contribution of various devices to identify the top-performing ones.
 
-### Prerequisites
+* **Revenue Generated by The Top 10 States**
 
-In order to run this project you need:
+  * Highlighted the geographical areas generating the highest revenue.
 
-<!--
-Example command:
+* **Reveue generated age ranges**
 
-```sh
- gem install rails
-```
- -->
+  * Explored revenue trends across different customer age groups.
 
-### Setup
+![first_two](image-4.png) ![alt text](image-5.png)
 
-Clone this repository to your desired folder:
 
-<!--
-Example commands:
+---
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+### 5. **Data usage Analysis**
 
-### Install
 
-Install this project with:
 
-<!--
-Example command:
+* **Data range against number of customers**
 
-```sh
-  cd my-project
-  gem install
-```
---->
+  * Examined the distribution of customers across different data usage ranges.
 
-### Usage
+* **Average data usage between age range**
 
-To run the project, execute the following command:
+  * Identified trends in average data usage across various age groups.
 
-<!--
-Example command:
+* **Revenue vs Data Usage with Devices sold**
 
-```sh
-  rails server
-```
---->
+  * Correlated revenue, data usage, and device sales to derive actionable insights.
 
-### Run tests
+![alt text](image-6.png)
+![alt text](image-7.png)
 
-To run tests, run the following command:
 
-<!--
-Example command:
+---
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+## Formulas and Functions
 
-### Deployment
+* **Dynamic ranges**
 
-You can deploy this project using:
+  ```
+  =INDEX($A$23:$D$26,0,MATCH(pop_dropdown,$A$22:$D$22,0))
+  ```
 
-<!--
-Example:
+  * The help of the index formula made it easy to create dynamic ranges for dynamic charts.
+  * Functions such as `SUM`, `AVERAGE`, `IF`, and `VLOOKUP`.
+  * Conditional formatting for highlighting key data points.
+  * PivotTables to summarize and analyze large datasets.
 
-```sh
+* **Excel Illustrations:**
 
-```
- -->
+  * Used rectangles, text boxes, and other shapes to design KPI cards.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+* **Dropdown Menus:**
 
-<!-- AUTHORS -->
+  * Enabled interactivity by allowing users to filter data by month.
 
-## 👥 Authors <a name="authors"></a>
+---
 
-> Mention all of the collaborators of this project.
+## Insights and Impact
 
-👤 **Author1**
+* **Dashboard Utility:**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+  * Provided stakeholders with a quick overview of performance metrics.
+  * Enabled decision-makers to focus on key areas of improvement.
 
-👤 **Author2**
+* **Device Popularity Analysis:**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+  * Supported targeted marketing strategies for high-demand devices.
+  * Informed inventory management decisions to optimize stock levels.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
 
-<!-- FUTURE FEATURES -->
+## Future Enhancements
 
-## 🔭 Future Features <a name="future-features"></a>
+* **Advanced Analytics:**
 
-> Describe 1 - 3 features you will add to the project.
+  * Enhance the dashboard by adding KPI metrics that show the month-over-month (MoM) percentage change, clearly indicating whether performance has increased or decreased compared to the previous month
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+---
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Conclusion
 
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
-
-If you like this project...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This project successfully leveraged Excel's capabilities to analyze MTN Insights data and provide valuable insights into customer behavior, device popularity, and performance metrics. The combination of a dynamic dashboard, churn analysis, and device metrics equips stakeholders with the tools needed to make informed decisions and drive business growth.
